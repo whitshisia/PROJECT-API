@@ -125,6 +125,6 @@ POST /taskflow/tasks
 
 👩‍💻 Author
 
-Whitney [Your Last Name]
+Whitney Shisia
 🚀 Backend Developer | Python & Flask Enthusiast
 
