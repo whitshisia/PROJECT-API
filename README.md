@@ -44,8 +44,7 @@ project-api/
 ## 🚀 Live Deployment (Render)
 
 ### Step 1. Push to GitHub
-
-```bash
+```bash ```
 git init
 git add .
 git commit -m "WhitLabs API initial commit"
@@ -53,7 +52,7 @@ git branch -M main
 git remote add origin https://github.com/<your-username>/project-api.git
 git push -u origin main  
 
-Step 2. Deploy on Render
+### Step 2. Deploy on Render
 
 Go to Render.com
 
@@ -71,13 +70,13 @@ Start Command: gunicorn app:app
 
 Deploy and wait for it to build 🌱
 
-🌍 API Endpoints Overview
+### 🌍 API Endpoints Overview
 API	Prefix	Example Routes
 Bookify	/bookify	/books, /books/search, /books/stats, /books/export
 TaskFlow	/taskflow	/tasks, /tasks/completed, /tasks/stats, /tasks/export
 NoteNest	/notenest	/notes, /notes/recent, /notes/summary, /notes/export
 
-Each API supports:
+### Each API supports:
 
 ✅ CRUD operations
 
@@ -89,7 +88,7 @@ Each API supports:
 
 💾 Data Export
 
-🧠 Tech Stack
+### 🧠 Tech Stack
 Category	Tools
 Language	Python
 Framework	Flask
@@ -123,8 +122,8 @@ POST /taskflow/tasks
 ✅ Ready-to-deploy on Render
 ✅ Perfect for portfolios or interview demos
 
-👩‍💻 Author
+### Author
 
-Whitney Shisia
+ Whitney Shisia
 🚀 Backend Developer | Python & Flask Enthusiast
 
